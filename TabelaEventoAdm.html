@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel - Cadastrar Cliente</title>
+  <link rel="stylesheet" href="Tabela_EeventoAdm.css">
+</head>
+<body>
+  <!-- CABEÇALHO -->
+  <header>
+    <h1>🎉 Brisa Festas e Eventos</h1>
+    <div class="user-info">
+      <span>Admin</span>
+      <button class="logout">Sair</button>
+    </div>
+  </header>
+
+  <!-- MENU LATERAL -->
+  <aside>
+    <nav>
+      <ul>
+        <li><a href="#">🏠 Dashboard</a></li>
+        <li><a href="#">📅 Eventos</a></li>
+        <li><a href="#">👤 Clientes</a></li>
+        <li><a href="#">👨‍🍳 Funcionários</a></li>
+        <li><a href="#">🍽️ Serviços</a></li>
+        <li><a href="#">⚙️ Configurações</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- ÁREA PRINCIPAL -->
+  <main>
+    <h2>Cadastrar Cliente</h2>
+    <form>
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+
+        <label>Nome:</label>
+        <input type="text" placeholder="Nome completo">
+
+        <label>Data de nascimento:</label>
+        <input type="date">
+
+        <label>Gênero:</label>
+        <input type="text" placeholder="Masculino / Feminino">
+
+        <label>Estado Civil:</label>
+        <input type="text" placeholder="Solteiro(a), Casado(a)...">
+      </fieldset>
+
+      <fieldset>
+        <legend>Endereço</legend>
+
+        <label>CEP:</label>
+        <input type="number" placeholder="00000-000">
+
+        <label>Endereço:</label>
+        <input type="text" placeholder="Rua, Avenida...">
+
+        <label>Nº:</label>
+        <input type="number" placeholder="123">
+
+        <label>Complemento:</label>
+        <input type="text" placeholder="Apartamento, casa...">
+
+        <label>Bairro:</label>
+        <input type="text">
+
+        <label>Cidade:</label>
+        <input type="text">
+
+        <label>Estado:</label>
+        <input type="text">
+      </fieldset>
+
+      <fieldset>
+        <legend>Contato</legend>
+
+        <label>Telefone:</label>
+        <input type="tel" placeholder="(11) 99999-9999">
+
+        <label>E-mail:</label>
+        <input type="email" placeholder="email@exemplo.com">
+      </fieldset>
+
+      <button type="submit" class="btn-salvar">Cadastrar</button>
+    </form>
+  </main>
+</body>
+</html>
 
